@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+</head>
+<body>
+    <form>
+        用户名：<input type="text" value="请输入用户名" maxlength="8"/> <br>
+        密码：<input type="password"/> <br>
+        性别: 
+        <label for="man">男</label> 
+        <input type="radio" name="gender" id="man"/> 
+        <label for="woman">女</label> 
+        <input type="radio" name="gender" id="woman"> <br>
+        职业：学生 <input type="checkbox" name="work"/> 上班族 <input type="checkbox" name="work"> <br>
+        手机号: <input type="text" maxlength="11" /> <br>
+        验证码: <input type="text" maxlength="6" /> <input type="button" value="点击获取验证码" /> <br>
+        上传头像 <input type="file" value="选择文件"/> <br>
+        选择学校: 
+        <select>
+            <option>福州大学</option>
+            <option selected="selected">杭州电子科技大学</option>
+        </select>
+        <br>
+        个人简介:
+        <textarea cols="30" rows="5">
+            建议10-50字
+        </textarea>
+        <br>
+        <input type="checkbox" checked="checked" /> 我已同意条款。 <br>
+        <input type="submit" value="免费注册" />
+        <input type="reset" value="重新填写" />
+    </form>
+</body>
+</html>
